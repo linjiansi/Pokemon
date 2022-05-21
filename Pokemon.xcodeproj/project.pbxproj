@@ -15,6 +15,7 @@
 		6B91B3272838840C0064113A /* PokemonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B91B3262838840C0064113A /* PokemonUITestsLaunchTests.swift */; };
 		6B91B33728388C890064113A /* PokemonList in Frameworks */ = {isa = PBXBuildFile; productRef = 6B91B33628388C890064113A /* PokemonList */; };
 		6B91B33A283934A00064113A /* Domain in Frameworks */ = {isa = PBXBuildFile; productRef = 6B91B339283934A00064113A /* Domain */; };
+		6B91B33D28393B400064113A /* Usecase in Frameworks */ = {isa = PBXBuildFile; productRef = 6B91B33C28393B400064113A /* Usecase */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		6B91B3262838840C0064113A /* PokemonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		6B91B334283885920064113A /* PokemonList */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = PokemonList; sourceTree = "<group>"; };
 		6B91B3382839348E0064113A /* Domain */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Domain; sourceTree = "<group>"; };
+		6B91B33B28393B2A0064113A /* Usecase */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Usecase; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B91B33D28393B400064113A /* Usecase in Frameworks */,
 				6B91B33A283934A00064113A /* Domain in Frameworks */,
 				6B91B33728388C890064113A /* PokemonList in Frameworks */,
 			);
@@ -80,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				6B91B3382839348E0064113A /* Domain */,
+				6B91B33B28393B2A0064113A /* Usecase */,
 				6B91B333283885420064113A /* Features */,
 				6B91B3022838840A0064113A /* Pokemon */,
 				6B91B3192838840C0064113A /* PokemonTests */,
@@ -161,6 +165,7 @@
 			packageProductDependencies = (
 				6B91B33628388C890064113A /* PokemonList */,
 				6B91B339283934A00064113A /* Domain */,
+				6B91B33C28393B400064113A /* Usecase */,
 			);
 			productName = Pokemon;
 			productReference = 6B91B3002838840A0064113A /* Pokemon.app */;
@@ -613,6 +618,10 @@
 		6B91B339283934A00064113A /* Domain */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Domain;
+		};
+		6B91B33C28393B400064113A /* Usecase */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Usecase;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
