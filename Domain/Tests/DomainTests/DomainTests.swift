@@ -1,5 +1,5 @@
 import XCTest
-@testable import Domain
+@testable import Entity
 
 final class DomainTests: XCTestCase {
     func testExample() throws {

@@ -1,7 +1,7 @@
 
 import Foundation
 
-public extension Domain {
+public extension Entity {
     struct PokemonList {
         let name: String
         let thumbnailURL: URL

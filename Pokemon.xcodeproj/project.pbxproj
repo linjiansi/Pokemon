@@ -14,8 +14,8 @@
 		6B91B3252838840C0064113A /* PokemonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B91B3242838840C0064113A /* PokemonUITests.swift */; };
 		6B91B3272838840C0064113A /* PokemonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B91B3262838840C0064113A /* PokemonUITestsLaunchTests.swift */; };
 		6B91B33728388C890064113A /* PokemonList in Frameworks */ = {isa = PBXBuildFile; productRef = 6B91B33628388C890064113A /* PokemonList */; };
-		6B91B33A283934A00064113A /* Domain in Frameworks */ = {isa = PBXBuildFile; productRef = 6B91B339283934A00064113A /* Domain */; };
 		6B91B33D28393B400064113A /* Usecase in Frameworks */ = {isa = PBXBuildFile; productRef = 6B91B33C28393B400064113A /* Usecase */; };
+		6B91B33F283944DB0064113A /* Entity in Frameworks */ = {isa = PBXBuildFile; productRef = 6B91B33E283944DB0064113A /* Entity */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,8 +57,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B91B33D28393B400064113A /* Usecase in Frameworks */,
-				6B91B33A283934A00064113A /* Domain in Frameworks */,
 				6B91B33728388C890064113A /* PokemonList in Frameworks */,
+				6B91B33F283944DB0064113A /* Entity in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,8 +164,8 @@
 			name = Pokemon;
 			packageProductDependencies = (
 				6B91B33628388C890064113A /* PokemonList */,
-				6B91B339283934A00064113A /* Domain */,
 				6B91B33C28393B400064113A /* Usecase */,
+				6B91B33E283944DB0064113A /* Entity */,
 			);
 			productName = Pokemon;
 			productReference = 6B91B3002838840A0064113A /* Pokemon.app */;
@@ -615,13 +615,13 @@
 			isa = XCSwiftPackageProductDependency;
 			productName = PokemonList;
 		};
-		6B91B339283934A00064113A /* Domain */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = Domain;
-		};
 		6B91B33C28393B400064113A /* Usecase */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Usecase;
+		};
+		6B91B33E283944DB0064113A /* Entity */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Entity;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
