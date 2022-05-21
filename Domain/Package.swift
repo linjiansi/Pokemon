@@ -10,6 +10,11 @@ let package = Package(
         .library(
             name: "Entity",
             targets: ["Entity"]),
+
+        .library(
+            name: "Repository",
+            targets: ["Repository"]
+        ),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -21,6 +26,10 @@ let package = Package(
         .target(
             name: "Entity",
             dependencies: []),
+        .target(
+            name: "Repository",
+            dependencies: []
+        ),
         .testTarget(
             name: "DomainTests",
             dependencies: ["Entity"]),

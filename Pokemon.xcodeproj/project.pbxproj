@@ -16,6 +16,7 @@
 		6B91B33728388C890064113A /* PokemonList in Frameworks */ = {isa = PBXBuildFile; productRef = 6B91B33628388C890064113A /* PokemonList */; };
 		6B91B33D28393B400064113A /* Usecase in Frameworks */ = {isa = PBXBuildFile; productRef = 6B91B33C28393B400064113A /* Usecase */; };
 		6B91B33F283944DB0064113A /* Entity in Frameworks */ = {isa = PBXBuildFile; productRef = 6B91B33E283944DB0064113A /* Entity */; };
+		6B91B341283951AD0064113A /* Repository in Frameworks */ = {isa = PBXBuildFile; productRef = 6B91B340283951AD0064113A /* Repository */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 			files = (
 				6B91B33D28393B400064113A /* Usecase in Frameworks */,
 				6B91B33728388C890064113A /* PokemonList in Frameworks */,
+				6B91B341283951AD0064113A /* Repository in Frameworks */,
 				6B91B33F283944DB0064113A /* Entity in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -166,6 +168,7 @@
 				6B91B33628388C890064113A /* PokemonList */,
 				6B91B33C28393B400064113A /* Usecase */,
 				6B91B33E283944DB0064113A /* Entity */,
+				6B91B340283951AD0064113A /* Repository */,
 			);
 			productName = Pokemon;
 			productReference = 6B91B3002838840A0064113A /* Pokemon.app */;
@@ -622,6 +625,10 @@
 		6B91B33E283944DB0064113A /* Entity */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Entity;
+		};
+		6B91B340283951AD0064113A /* Repository */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Repository;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
