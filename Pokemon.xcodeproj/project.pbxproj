@@ -14,6 +14,7 @@
 		6B91B3252838840C0064113A /* PokemonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B91B3242838840C0064113A /* PokemonUITests.swift */; };
 		6B91B3272838840C0064113A /* PokemonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B91B3262838840C0064113A /* PokemonUITestsLaunchTests.swift */; };
 		6B91B33728388C890064113A /* PokemonList in Frameworks */ = {isa = PBXBuildFile; productRef = 6B91B33628388C890064113A /* PokemonList */; };
+		6B91B33A283934A00064113A /* Domain in Frameworks */ = {isa = PBXBuildFile; productRef = 6B91B339283934A00064113A /* Domain */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		6B91B3242838840C0064113A /* PokemonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonUITests.swift; sourceTree = "<group>"; };
 		6B91B3262838840C0064113A /* PokemonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		6B91B334283885920064113A /* PokemonList */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = PokemonList; sourceTree = "<group>"; };
+		6B91B3382839348E0064113A /* Domain */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Domain; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B91B33A283934A00064113A /* Domain in Frameworks */,
 				6B91B33728388C890064113A /* PokemonList in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -76,6 +79,7 @@
 		6B91B2F72838840A0064113A = {
 			isa = PBXGroup;
 			children = (
+				6B91B3382839348E0064113A /* Domain */,
 				6B91B333283885420064113A /* Features */,
 				6B91B3022838840A0064113A /* Pokemon */,
 				6B91B3192838840C0064113A /* PokemonTests */,
@@ -156,6 +160,7 @@
 			name = Pokemon;
 			packageProductDependencies = (
 				6B91B33628388C890064113A /* PokemonList */,
+				6B91B339283934A00064113A /* Domain */,
 			);
 			productName = Pokemon;
 			productReference = 6B91B3002838840A0064113A /* Pokemon.app */;
@@ -604,6 +609,10 @@
 		6B91B33628388C890064113A /* PokemonList */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = PokemonList;
+		};
+		6B91B339283934A00064113A /* Domain */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Domain;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
